@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+     <title>Survey Form</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <h1 id="title">Gaming Survey</h1>
+      <p id="description">This survey will determine how many Gamers are within our own Eastern  Washington Community
+and help establish what game's the majority likes and dislikes. 
+Thank you for filling out this survey! :)</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Name<input id="name" placeholder="Enter your name..." type="text" required/>
+          </label>
+          <label id="email-label" for="email">Email<input id="email" placeholder="Enter your email..." type="email" required/>
+          </label>
+          <label id="number-label" for="number">Age<input id="number" placeholder="Enter your age..."type="number" min="14" max="120"/>
+          </label>
+
+          <label>What genre of Video Games do you like?</label>
+            <select id="genre" type="select">
+              <option value="">Please select one...</option>
+              <option value="1">Shooter</option>
+              <option value="2">Action</option>
+              <option value="3">Adventure</option>
+              <option value="">Role-playing (RPG)</option>
+              <option value="4">Sports</option>
+              <option value="5">Puzzle</option>
+              <option value="6">Battle Royale</option>
+              <option value="7">Real-time Strategy</option>
+              <option value="8">Fight</option>
+              <option value="9">Horror</option>
+            </select>
+
+          <label>How often do you play Video Games</label>
+          <label for="play-time-1"><input id="play-time-1" type="radio" name="play" class="inline" value="1" checked/>Less than an hour</label>
+          <label for="play-time-2"><input id="play-time-2" type="radio" name="play" class="inline" value="2"/>1 - 3 hours</label>
+          <label for="play-time-3"><input id="play-time-3" type="radio" name="play" class="inline" value="3" />4 - 6 hours</label>
+          <label for="play-time-4"><input id="play-time-4" type="radio" name="play" class="inline" value="4" />7 - 9 hours</label>
+          <label for="play-time-5"><input id="play-time-5" type="radio" name="play" class="inline" value="5" />10+ hours</label>
+
+          <label>What do you play Video Game on? (Please select all that apply)</label>
+          <label><input type="checkbox" value="Playstation" class="inline"/>Playstation</label>
+          <label><input type="checkbox" value="Xbox" class="inline"/>Xbox</label>
+          <label><input type="checkbox" value="Nintendo" class="inline"/>Nintendo</label>
+          <label><input type="checkbox" value="PC" class="inline"/>PC</label>
+          <label><input type="checkbox" value="Mobile" class="inline"/>Mobile</label>
+
+          <label for="dropdown">Are you a Student at Eastern Washington University?
+            <select id="dropdown" type="select">
+              <option value="">Please Select one...</option>
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+            </select>
+          </label>
+
+          <label for="comments">Any Comments?
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Please type here..." ></textarea>
+          </label>
+
+        <input id="submit" type="submit" value="Submit"/>
+        <input type="reset">
+        </fieldset>
+      </form>
+    </body>
+  </html>

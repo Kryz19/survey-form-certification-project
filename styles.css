@@ -1,0 +1,153 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-image: linear-gradient(#E1A3FF, #63169E);
+    color: white;
+    font-family: "Nerko One";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .nerko-one-regular {
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    font-family: "Silkscreen";
+    font-size: 128 px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  p{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 36 px;
+  }
+  
+  form{
+    width: 75vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 2em;
+    border: 3px solid white;
+    border-bottom: none;
+  }
+  
+  fieldset {
+    border: none;
+    padding: auto;
+  }
+  
+  select {
+    background-color: transparent;
+    border: 3px dashed white;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: Nerko One;
+    color: white;
+  }
+  
+  select option{
+    background-color: #E1A3FF;
+    font-family: Nerko One;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input, textarea, select {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea{
+    background-color: transparent;
+    border: 3px dashed #FFFFFF;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .inline{
+    display: inline;
+  }
+  
+  input::placeholder {
+    color: white;
+    font-family: Nerko One;
+    opacity: 50%;
+  }
+  
+  input[type="radio"]{
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    accent-color: #E1A3FF;
+  }
+  
+  input[type="checkbox"]{
+    border: solid white;
+    accent-color: rgb(255 163 255);
+  }
+  
+  textarea::placeholder {
+    color: white;
+    font-family: Nerko One;
+    opacity: 50%;
+  }
+  
+  input, textarea{  
+     font-family: Nerko One;   
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 2em;
+    font-family: Nerko One;
+    font-size: 1.1rem;
+    background-color: #FFD9FB;
+    border: none;
+    border-color: white;
+    border-radius: 30px;
+    min-width: 30px;
+  }
+  
+  input[type="reset"]{
+    border: none;
+    font-family: Nerko One;
+  }
+  
